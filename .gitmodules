@@ -4,3 +4,6 @@
 [submodule "Assets/Scripts/FairyGuiPlugin"]
 	path = Assets/Scripts/FairyGuiPlugin
 	url = https://github.com/luoyeguohou/FairyGuiPlugin.git
+[submodule "Assets/Scripts/TinyEcs"]
+	path = Assets/Scripts/TinyEcs
+	url = https://github.com/luoyeguohou/TinyEcs.git
