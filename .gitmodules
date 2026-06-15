@@ -1,0 +1,6 @@
+[submodule "Assets/Scripts/Util"]
+	path = Assets/Scripts/Util
+	url = https://github.com/luoyeguohou/Util.git
+[submodule "Assets/Scripts/FairyGuiPlugin"]
+	path = Assets/Scripts/FairyGuiPlugin
+	url = https://github.com/luoyeguohou/FairyGuiPlugin.git
