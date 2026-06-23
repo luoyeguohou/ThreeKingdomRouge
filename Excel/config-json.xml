@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- ddb file path -->
+	<ddb>./data/design.db</ddb>
+	<!-- output json file path -->
+	<output>./data/design.json</output>
+	<!-- encode pretty for read -->
+	<EnablePretty>0</EnablePretty>
+	<tables>
+		<!-- Data.xlsx -->
+		<table name="DataCards">*</table>
+		<table name="DataEffects">*</table>
+		<!-- Deck.xlsx -->
+		<table name="Deck">*</table>
+		<!-- I18n.xlsx -->
+		<table name="I18n">*</table>
+		<!-- Skill.xlsx -->
+		<table name="Skill">*</table>
+		<table name="SkillUsage">*</table>
+		<!-- Weapon.xlsx -->
+		<table name="Weapon">*</table>
+	</tables>
+</config>

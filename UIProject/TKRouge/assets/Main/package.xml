@@ -2,6 +2,18 @@
 <packageDescription id="6rc7w3no">
   <resources>
     <component id="ti390" name="MainWin.xml" path="/" exported="true"/>
+    <component id="pcqv1" name="MainHand.xml" path="/"/>
+    <component id="pcqv2" name="MainCont.xml" path="/"/>
+    <component id="pcqv3" name="Card.xml" path="/" exported="true"/>
+    <component id="pcqv4" name="Button.xml" path="/"/>
+    <image id="pcqv5" name="heart.png" path="/" scale9grid="0,0,-243,-160"/>
+    <component id="pcqv6" name="HP.xml" path="/"/>
+    <component id="pcqv7" name="Equipment.xml" path="/"/>
+    <component id="pcqv8" name="Player.xml" path="/"/>
+    <image id="pcqv9" name="profile.png" path="/"/>
+    <component id="ymjra" name="CardBack.xml" path="/" exported="true"/>
+    <component id="ymjrb" name="CardListCont.xml" path="/"/>
+    <component id="ymjrc" name="CardListWin.xml" path="/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

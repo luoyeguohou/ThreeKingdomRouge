@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1753,984">
+  <displayList>
+    <graph id="n29_ymjr" name="n29" xy="0,0" size="1753,984" type="rect" fillColor="#7dffffff" corner="60"/>
+    <list id="n30_ymjr" name="lstCard" xy="54,85" size="1623,853" layout="flow_hz" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n31_ymjr" name="btnClose" src="pcqv4" fileName="Button.xml" xy="1529,9" size="148,66">
+      <Button title="关闭" titleFontSize="32"/>
+    </component>
+  </displayList>
+</component>

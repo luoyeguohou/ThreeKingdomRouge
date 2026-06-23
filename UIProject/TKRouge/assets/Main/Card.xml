@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="229,306" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,base,1,skill,2,item" selected="2"/>
+  <displayList>
+    <graph id="n3_pcqv" name="n3" xy="0,0" size="229,306" type="rect" fillColor="#ffdddddd" corner="30">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n4_pcqv" name="title" xy="17,10" size="193,66" fontSize="50" align="center" vAlign="middle" autoSize="shrink" text="雌雄双股剑">
+      <gearXY controller="type" pages="1,2" values="17,10|17,10" default="16,19"/>
+      <gearSize controller="type" pages="1,2" values="193,66,1,1|193,66,1,1" default="193,130,1,1"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </text>
+    <text id="n5_pcqv" name="txtCont" xy="16,84" size="193,202" fontSize="22" align="center" autoSize="shrink" text="对敌人使用，你跟目标轮流打出一张杀，首个无法打出杀的角色受到1点伤害。">
+      <gearDisplay controller="type" pages="1,2"/>
+      <relation target="" sidePair="left-left,left-right,bottomext-bottom"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

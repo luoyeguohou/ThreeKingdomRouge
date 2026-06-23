@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="392,100">
+  <controller name="hp" exported="true" pages="0,,1,,2,,3,,4,,5,,7,,8,other" selected="7"/>
+  <displayList>
+    <graph id="n7_pcqv" name="n7" xy="0,0" size="392,100" type="rect" fillColor="#ff6e6f8e" corner="30"/>
+    <loader id="n9_pcqv" name="n9" xy="7,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="hp" pages="7"/>
+      <gearXY controller="hp" default="7,17"/>
+    </loader>
+    <loader id="n10_pcqv" name="n10" xy="20,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="hp" pages="5,7"/>
+      <gearXY controller="hp" pages="7" values="71,17" default="20,17"/>
+    </loader>
+    <loader id="n11_pcqv" name="n11" xy="27,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="hp" pages="4,5,7"/>
+      <gearXY controller="hp" pages="5,7" values="90,17|135,17" default="27,17"/>
+    </loader>
+    <loader id="n12_pcqv" name="n12" xy="61,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="hp" pages="3,4,5,7"/>
+      <gearXY controller="hp" pages="4,5,7" values="118,17|160,17|199,17" default="61,17"/>
+    </loader>
+    <loader id="n13_pcqv" name="n13" xy="101,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="hp" pages="2,3,4,5,7"/>
+      <gearXY controller="hp" pages="3,4,5,7" values="165,17|209,17|230,17|263,17" default="101,17"/>
+    </loader>
+    <loader id="n14_pcqv" name="n14" xy="92,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="hp" pages="1,2,3,4,5,7,8"/>
+      <gearXY controller="hp" pages="1,2,3,4,5,7,8" values="165,17|221,17|270,17|300,17|300,17|327,17|92,17" default="322,17"/>
+    </loader>
+    <text id="n15_pcqv" name="txtNum" xy="159,17" size="169,64" fontSize="44" color="#ef1127" align="center" vAlign="middle" vars="true" autoSize="none" text="X{num=18}">
+      <gearDisplay controller="hp" pages="8"/>
+    </text>
+  </displayList>
+</component>

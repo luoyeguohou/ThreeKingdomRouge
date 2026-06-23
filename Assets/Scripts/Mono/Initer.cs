@@ -6,14 +6,16 @@ public class Initer : MonoBehaviour
 {
     private void Start()
     {
-        Msg<MsgID>.Init();
-        //Cfg.Init();
-        //World.Init();
+        Msg.Init();
+        Cfg.Init();
+        World.Init();
         UIManager.Init();
+
+        Msg.Dispatch((int)MsgID.GameInit);
     }
 
-    //private void Update()
-    //{
-    //    World.e.Update(Time.deltaTime);
-    //}
+    private void Update()
+    {
+        World.e.Update(Time.deltaTime);
+    }
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <component id="n0_pcqv" name="hand" src="pcqv1" fileName="MainHand.xml" xy="134,813" size="1042,110"/>
+    <component id="n1_pcqv" name="btnAddCard" src="pcqv4" fileName="Button.xml" xy="1748,16" size="153,73">
+      <Button title="add card" titleFontSize="27"/>
+    </component>
+    <component id="n2_pcqv" name="player" src="pcqv8" fileName="Player.xml" xy="1524,566"/>
+    <list id="n18_pcqv" name="lstSkill" xy="1256,674" size="216,300" scale="1.3,1.3" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" lineItemCount="2" defaultItem="ui://6rc7w3nopcqv4">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n26_pcqv" name="enemy1" src="pcqv8" fileName="Player.xml" xy="23,16"/>
+    <component id="n27_ymjr" name="btnDraw" src="ymjra" fileName="CardBack.xml" xy="779,343">
+      <Button title="抽牌堆"/>
+    </component>
+    <component id="n28_ymjr" name="btnDiscard" src="ymjra" fileName="CardBack.xml" xy="1019,343">
+      <Button title="弃牌堆"/>
+    </component>
+  </displayList>
+</component>

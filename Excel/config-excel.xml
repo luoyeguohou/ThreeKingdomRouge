@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	配置文件
+-->
+<config>
+	<client_side output_db="./data/design.db" no_comment="1">
+		<tableinfo default_key="id,idx" invalid_col="index,default">
+			<file name="excel/Data.xlsx">
+				<DataCards name="Cards" firstcol="id" key="id" />
+				<DataEffects name="Effects" firstcol="id" key="id" />
+			</file>
+			<file name="excel/Deck.xlsx">
+				<Deck name="Deck" firstcol="id" key="id" />
+			</file>
+			<file name="excel/I18n.xlsx">
+				<I18n name="I18n" firstcol="id" key="id" />
+			</file>
+			<file name="excel/Skill.xlsx">
+				<Skill name="Skill" firstcol="id" key="id" />
+				<SkillUsage name="SkillUsage" firstcol="id" key="id" />
+			</file>
+			<file name="excel/Weapon.xlsx">
+				<Weapon name="Weapon" firstcol="id" key="id" />
+			</file>
+		</tableinfo>
+	</client_side>
+</config>

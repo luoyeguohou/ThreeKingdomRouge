@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="392,494">
+  <displayList>
+    <component id="n2_pcqv" name="hp" src="pcqv6" fileName="HP.xml" xy="0,0" controller="hp,3"/>
+    <component id="n6_pcqv" name="armor" src="pcqv7" fileName="Equipment.xml" xy="45,420"/>
+    <component id="n20_pcqv" name="weapon" src="pcqv7" fileName="Equipment.xml" xy="45,349"/>
+    <image id="n21_pcqv" name="n21" src="pcqv9" fileName="profile.png" xy="78,103" size="237,241"/>
+  </displayList>
+</component>

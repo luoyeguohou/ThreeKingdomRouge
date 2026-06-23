@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum MsgID { 
-    
+public enum MsgID {
+    AfterCardChanged,
+    GameInit,
 }
